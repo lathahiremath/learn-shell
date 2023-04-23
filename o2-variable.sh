@@ -10,5 +10,5 @@ DATE=2023-04-18
 echo DATE=${DATE}
 
 #with dynamic way
-DATE=${date +%F}
+DATE=$(date +%F)
 echo DATE=$DATE
