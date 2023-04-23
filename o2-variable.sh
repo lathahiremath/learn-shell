@@ -5,5 +5,10 @@ name=Devops
 echo a=$a
 echo name=$name
 
+#without dynamic way
 DATE=2023-04-18
 echo DATE=${DATE}
+
+#with dynamic way
+DATE=${date +%F}
+echo DATE=$DATE
